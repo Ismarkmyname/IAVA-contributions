@@ -11,7 +11,7 @@ py manage.py runserver 8001
 # or
 python manage.py runserver 8001
 
-**FastAPI:**
+FastAPI:
 uvicorn main:app --reload
 
 ✅ This version:
