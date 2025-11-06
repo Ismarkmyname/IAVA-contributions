@@ -14,8 +14,3 @@ python manage.py runserver 8001
 
 FastAPI:
 uvicorn main:app --reload
-
-✅ This version:
-- Uses proper Markdown headings and code blocks.
-- Separates Django and FastAPI commands clearly.
-- Looks neat and readable on GitHub.
