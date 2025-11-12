@@ -9,7 +9,9 @@ Run both **Django** and **FastAPI** on different terminals and different ports.
 #### Django:
 ```bash
 py manage.py runserver 8001
+```
 # or
+```bash
 python manage.py runserver 8001
 ```
 
