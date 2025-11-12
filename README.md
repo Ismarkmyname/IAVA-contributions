@@ -2,7 +2,7 @@
 
 ## How to Use?
 
-Run both **Django** and **FastAPI** on different terminals and different ports.
+Run both **Django** and **FastAPI** on different terminals and different ports you dont need to change both ports.
 
 ### Example:
 
