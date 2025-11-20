@@ -20,4 +20,9 @@ urlpatterns =[
 
     # add api endpoints
     path('api/', include('IAVAapp.api_urls')),
+
+    # Gamification endpoints
+    path('api/quiz-completion/', views.record_quiz_completion, name='record_quiz_completion'),
+    path('api/student-stats/<int:student_id>/', views.get_student_stats, name='get_student_stats'),
+    path('api/leaderboard/', views.get_leaderboard, name='get_leaderboard'),
 ]
