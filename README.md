@@ -19,3 +19,5 @@ python manage.py runserver 8001
 ```bash
 uvicorn main:app --reload
 ```
+
+the main repository is here: https://github.com/pierceskepto/IAVA2
